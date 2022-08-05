@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #9b7653;
+  width: 100%;
+}
+@media screen and (min-width: 500px) {
+  body main section {
+    width: 500px;
+  }
+}
+body main section .moles {
+  width: 115px;
+  height: 115px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: wheat;
+}
+body main section .output {
+  margin: 5px;
+  background-color: white;
+  width: 95%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
